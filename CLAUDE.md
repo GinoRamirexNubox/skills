@@ -2,53 +2,53 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## What This Repo Is
+## Que es este repo
 
-A collection of Claude Code agent skills following the [mattpocock/skills](https://github.com/mattpocock/skills) structure. Each skill is a folder containing a `SKILL.md` and optional reference files. Skills are installable via `npx skills@latest add ginoramirex/skills/<skill-name>`.
+Coleccion de skills para Claude Code siguiendo la estructura de [mattpocock/skills](https://github.com/mattpocock/skills). Cada skill es una carpeta con un `SKILL.md` y archivos de referencia opcionales. Se instalan via `npx skills@latest add ginoramirex/skills/<skill-name>`.
 
-## Skill Structure
+## Estructura de un skill
 
 ```
 skill-name/
-├── SKILL.md           # Main instructions (required, frontmatter with name + description)
-├── references/        # Deep-dive docs loaded on demand (optional)
+├── SKILL.md           # Instrucciones principales (requerido, frontmatter con name + description)
+├── references/        # Docs detallados cargados bajo demanda (opcional)
 │   └── *.md
-└── scripts/           # Utility scripts (optional)
+└── scripts/           # Scripts utilitarios (opcional)
 ```
 
-### SKILL.md Frontmatter
+### Frontmatter de SKILL.md
 
-Every SKILL.md must have YAML frontmatter with at least:
-- `name`: kebab-case skill identifier
-- `description`: what it does + when to trigger it (max 1024 chars, third person)
+Todo SKILL.md debe tener frontmatter YAML con al menos:
+- `name`: identificador en kebab-case
+- `description`: que hace + cuando activarlo (max 1024 chars, tercera persona)
 
-### When to Split Files
+### Cuando separar archivos
 
-- SKILL.md should stay under ~100 lines for quick loading
-- Move detailed references, examples, or command docs into `references/` subdirectory
-- Add utility scripts in `scripts/` when operations are deterministic
+- SKILL.md debe mantenerse bajo ~100 lineas para carga rapida
+- Mover referencias detalladas, ejemplos o docs de comandos a `references/`
+- Agregar scripts utilitarios en `scripts/` cuando las operaciones son deterministas
 
-## Skill Categories
+## Categorias
 
-Skills are organized by SDLC phase:
+Skills organizados por fase SDLC:
 
-| Phase | Skills |
-|-------|--------|
-| Discovery | discovery-explore, discovery-interview |
-| Planning | epic-create, epic-breakdown, adr-create |
-| Refinement | refine-technical, refine-estimate, sprint-plan |
-| Development | code-scaffold, code-review, github-ops, jira |
+| Fase | Skills |
+|------|--------|
+| Descubrimiento | discovery-explore, discovery-interview |
+| Planificacion | epic-create, epic-breakdown, adr-create |
+| Refinamiento | refine-technical, refine-estimate, sprint-plan |
+| Desarrollo | code-scaffold, code-review, github-ops, jira |
 | Testing | test-e2e-plan, test-coverage |
-| Deployment | deploy-checklist, deploy-release, changelog-update |
+| Despliegue | deploy-checklist, deploy-release, changelog-update |
 | Onboarding | hub-onboard |
 | Obsidian | obsidian-quick-note |
 
-## Language Convention
+## Convencion de idioma
 
-All skills use Spanish for their content and output.
+Todos los skills usan espanol para su contenido y salida.
 
-## Adding a New Skill
+## Agregar un nuevo skill
 
-1. Create `skill-name/SKILL.md` with frontmatter
-2. Add an entry to `README.md` under the appropriate category
-3. Keep SKILL.md concise — split into references if over 100 lines
+1. Crear `skill-name/SKILL.md` con frontmatter
+2. Agregar entrada en `README.md` bajo la categoria correspondiente
+3. Mantener SKILL.md conciso — separar en references si supera 100 lineas

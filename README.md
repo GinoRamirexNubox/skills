@@ -1,110 +1,110 @@
 # Agent Skills
 
-A collection of agent skills for Claude Code that extend capabilities across the full SDLC — from discovery and planning through development, testing, and deployment.
+Coleccion de skills para Claude Code que extienden capacidades a lo largo de todo el SDLC — desde descubrimiento y planificacion hasta desarrollo, testing y despliegue.
 
-## Discovery & Planning
+## Descubrimiento y Planificacion
 
-Skills for understanding problems and defining scope before writing code.
+Skills para entender problemas y definir alcance antes de escribir codigo.
 
-- **discovery-explore** — Explore a problem space across all repos in the workspace. Read-only, never implements.
+- **discovery-explore** — Explorar un espacio de problema a traves de todos los repos del workspace. Solo lectura, nunca implementa.
   ```
   npx skills@latest add ginoramirex/skills/discovery-explore
   ```
-- **discovery-interview** — Guide a structured stakeholder interview to elicit requirements, constraints, and priorities.
+- **discovery-interview** — Guiar una entrevista estructurada a stakeholders para elicitar requerimientos, restricciones y prioridades.
   ```
   npx skills@latest add ginoramirex/skills/discovery-interview
   ```
-- **epic-create** — Create a new epic with objectives, acceptance criteria, and initial user story breakdown.
+- **epic-create** — Crear una nueva epica con objetivos, criterios de aceptacion y desglose inicial de historias de usuario.
   ```
   npx skills@latest add ginoramirex/skills/epic-create
   ```
-- **epic-breakdown** — Decompose an existing epic into implementable user stories with clear scope and repo assignments.
+- **epic-breakdown** — Descomponer una epica existente en historias de usuario implementables con scope claro y asignaciones por repo.
   ```
   npx skills@latest add ginoramirex/skills/epic-breakdown
   ```
 
-## Refinement & Estimation
+## Refinamiento y Estimacion
 
-Skills for turning requirements into actionable specs.
+Skills para convertir requerimientos en especificaciones accionables.
 
-- **refine-technical** — Take a discovery artifact or raw requirement and produce a refined technical spec per repository.
+- **refine-technical** — Tomar un artefacto de descubrimiento o requerimiento bruto y producir una especificacion tecnica refinada por repositorio.
   ```
   npx skills@latest add ginoramirex/skills/refine-technical
   ```
-- **refine-estimate** — Estimate complexity and effort of user stories using fibonacci story points with code-based justification.
+- **refine-estimate** — Estimar complejidad y esfuerzo de historias de usuario usando story points fibonacci con justificacion basada en codigo.
   ```
   npx skills@latest add ginoramirex/skills/refine-estimate
   ```
-- **sprint-plan** — Create a sprint plan by selecting stories from epics, verifying capacity, and organizing the backlog.
+- **sprint-plan** — Crear un plan de sprint seleccionando historias de epicas, verificando capacidad y organizando el backlog.
   ```
   npx skills@latest add ginoramirex/skills/sprint-plan
   ```
-- **adr-create** — Create Architecture Decision Records to document significant technical decisions.
+- **adr-create** — Crear Architecture Decision Records para documentar decisiones tecnicas significativas.
   ```
   npx skills@latest add ginoramirex/skills/adr-create
   ```
 
-## Development
+## Desarrollo
 
-Skills for writing, scaffolding, and reviewing code.
+Skills para escribir, scaffoldear y revisar codigo.
 
-- **code-scaffold** — Scaffold the structure for a cross-repo feature by creating change artifacts (proposal, tasks) in each affected repository.
+- **code-scaffold** — Scaffoldear la estructura de un feature cross-repo creando artefactos de cambio (proposal, tasks) en cada repositorio afectado.
   ```
   npx skills@latest add ginoramirex/skills/code-scaffold
   ```
-- **code-review** — Cross-repo code review focused on API consistency, types, integrations, and testing gaps.
+- **code-review** — Revision de codigo cross-repo enfocada en consistencia de APIs, tipos, integraciones y gaps de testing.
   ```
   npx skills@latest add ginoramirex/skills/code-review
   ```
-- **github-ops** — GitHub CLI operations for interacting with repos, PRs, issues, and releases.
+- **github-ops** — Operaciones de GitHub CLI (gh) para interactuar con repos, PRs, issues y releases.
   ```
   npx skills@latest add ginoramirex/skills/github-ops
   ```
-- **jira** — Natural language interaction with Jira via CLI or Atlassian MCP. View, create, transition, and manage issues.
+- **jira** — Interaccion con Jira via CLI o Atlassian MCP. Ver, crear, transicionar y gestionar issues.
   ```
   npx skills@latest add ginoramirex/skills/jira
   ```
 
-## Testing & QA
+## Testing y QA
 
-Skills for planning and analyzing test coverage.
+Skills para planificar y analizar cobertura de tests.
 
-- **test-e2e-plan** — Create an end-to-end test plan from epics and technical specifications.
+- **test-e2e-plan** — Crear plan de pruebas end-to-end a partir de epicas y especificaciones tecnicas.
   ```
   npx skills@latest add ginoramirex/skills/test-e2e-plan
   ```
-- **test-coverage** — Cross-repo coverage analysis — map requirements vs existing tests and identify gaps.
+- **test-coverage** — Analisis de cobertura cross-repo — mapea requerimientos vs tests existentes e identifica gaps.
   ```
   npx skills@latest add ginoramirex/skills/test-coverage
   ```
 
-## Deployment & Release
+## Despliegue y Release
 
-Skills for managing releases and deployments.
+Skills para gestionar releases y deployments.
 
-- **deploy-checklist** — Generate a pre-deployment checklist adapted to each repository's tech stack.
+- **deploy-checklist** — Generar checklist de pre-deployment adaptado al tech stack de cada repositorio involucrado.
   ```
   npx skills@latest add ginoramirex/skills/deploy-checklist
   ```
-- **deploy-release** — Multi-repo release management — coordinate versioning, archive changes, and update changelogs.
+- **deploy-release** — Gestion de release multi-repo — coordinar versionado, archivar cambios y actualizar changelogs.
   ```
   npx skills@latest add ginoramirex/skills/deploy-release
   ```
-- **changelog-update** — Update the unified product changelog following Keep a Changelog format in Spanish.
+- **changelog-update** — Actualizar el changelog unificado del producto siguiendo el formato Keep a Changelog.
   ```
   npx skills@latest add ginoramirex/skills/changelog-update
   ```
 
 ## Onboarding
 
-- **hub-onboard** — Guided workspace onboarding — interactive tour of the hub, repo verification, and orientation.
+- **hub-onboard** — Onboarding guiado al workspace — recorrido interactivo del hub, verificacion de repos y orientacion.
   ```
   npx skills@latest add ginoramirex/skills/hub-onboard
   ```
 
 ## Obsidian
 
-- **obsidian-quick-note** — Quick capture to the Obsidian vault Inbox. Each entry is tagged with date and time for later processing.
+- **obsidian-quick-note** — Captura rapida al Inbox del vault Obsidian. Cada entrada se tagea con fecha y hora para proceso posterior.
   ```
   npx skills@latest add ginoramirex/skills/obsidian-quick-note
   ```
