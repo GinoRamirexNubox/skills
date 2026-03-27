@@ -14,10 +14,6 @@ Skills for understanding problems and defining scope before writing code.
   ```
   npx skills@latest add ginoramirex/skills/discovery-interview
   ```
-- **grill-me** — Get relentlessly interviewed about a plan or design until every branch of the decision tree is resolved.
-  ```
-  npx skills@latest add ginoramirex/skills/grill-me
-  ```
 - **epic-create** — Create a new epic with objectives, acceptance criteria, and initial user story breakdown.
   ```
   npx skills@latest add ginoramirex/skills/epic-create
@@ -106,46 +102,9 @@ Skills for managing releases and deployments.
   npx skills@latest add ginoramirex/skills/hub-onboard
   ```
 
-## Obsidian & Knowledge Management
+## Obsidian
 
-Skills for interacting with Obsidian vaults.
-
-- **obsidian-cli** — Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes.
-  ```
-  npx skills@latest add ginoramirex/skills/obsidian-cli
-  ```
-- **obsidian-markdown** — Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, and properties.
-  ```
-  npx skills@latest add ginoramirex/skills/obsidian-markdown
-  ```
-- **obsidian-bases** — Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries.
-  ```
-  npx skills@latest add ginoramirex/skills/obsidian-bases
-  ```
 - **obsidian-quick-note** — Quick capture to the Obsidian vault Inbox. Each entry is tagged with date and time for later processing.
   ```
   npx skills@latest add ginoramirex/skills/obsidian-quick-note
-  ```
-- **json-canvas** — Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections.
-  ```
-  npx skills@latest add ginoramirex/skills/json-canvas
-  ```
-
-## Tooling & Integrations
-
-- **defuddle** — Extract clean markdown content from web pages using Defuddle CLI, removing clutter to save tokens.
-  ```
-  npx skills@latest add ginoramirex/skills/defuddle
-  ```
-- **find-skills** — Discover and install agent skills from the open ecosystem when looking for new capabilities.
-  ```
-  npx skills@latest add ginoramirex/skills/find-skills
-  ```
-- **google-workspace-cli** — Interact with all Google Workspace APIs via the `gws` CLI — Drive, Gmail, Calendar, Sheets, Docs, and more.
-  ```
-  npx skills@latest add ginoramirex/skills/google-workspace-cli
-  ```
-- **pptx** — Create, read, edit, and manipulate PowerPoint (.pptx) files with template-based editing and programmatic generation.
-  ```
-  npx skills@latest add ginoramirex/skills/pptx
   ```

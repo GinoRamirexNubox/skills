@@ -34,19 +34,18 @@ Skills are organized by SDLC phase:
 
 | Phase | Skills |
 |-------|--------|
-| Discovery | discovery-explore, discovery-interview, grill-me |
+| Discovery | discovery-explore, discovery-interview |
 | Planning | epic-create, epic-breakdown, adr-create |
 | Refinement | refine-technical, refine-estimate, sprint-plan |
 | Development | code-scaffold, code-review, github-ops, jira |
 | Testing | test-e2e-plan, test-coverage |
 | Deployment | deploy-checklist, deploy-release, changelog-update |
 | Onboarding | hub-onboard |
-| Obsidian | obsidian-cli, obsidian-markdown, obsidian-bases, obsidian-quick-note, json-canvas |
-| Tooling | defuddle, find-skills, google-workspace-cli, pptx |
+| Obsidian | obsidian-quick-note |
 
 ## Language Convention
 
-The SDLC skills (discovery through deployment) use Spanish for their content and output. Obsidian and tooling skills use English.
+All skills use Spanish for their content and output.
 
 ## Adding a New Skill
 
